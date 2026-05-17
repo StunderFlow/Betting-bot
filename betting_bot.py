@@ -11,7 +11,7 @@ HEADERS={"x-apisports-key":API_FOOTBALL_KEY}
 logging.basicConfig(level=logging.INFO)
 log=logging.getLogger(__name__)
 
-TARGET_LEAGUES={39:"Premier League",140:"La Liga",135:"Serie A",78:"Bundesliga",61:"Ligue 1",283:"Liga I Romania",113:"Allsvenskan Sweden",169:"Chinese Super League",323:"Ekstraklasa Poland",88:"Eredivisie",144:"Jupiler Pro Belgium"}
+TARGET_LEAGUES={39:"Premier League 🏴󠁧󠁢󠁥󠁮󠁧󠁿",140:"La Liga 🇪🇸",135:"Serie A 🇮🇹",78:"Bundesliga 🇩🇪",61:"Ligue 1 🇫🇷",94:"Primeira Liga 🇵🇹",71:"Brasileirao 🇧🇷",253:"MLS 🇺🇸",307:"Saudi Pro League 🇸🇦",283:"Liga I Romania 🇷🇴",113:"Allsvenskan 🇸🇪",169:"Chinese Super League 🇨🇳",323:"Ekstraklasa 🇵🇱",88:"Eredivisie 🇳🇱",144:"Jupiler Pro 🇧🇪"}
 MARKETS={"home_win":"Vitoria Casa","away_win":"Vitoria Fora","over25":"Mais 2.5 Golos","btts":"Ambas Marcam","over15_ht":"Mais 1.5 Golos 1T","corners_over":"Mais 9.5 Cantos"}
 MARKET_ODDS={"home_win":1.80,"away_win":2.20,"over25":1.75,"btts":1.85,"over15_ht":1.90,"corners_over":1.95}
 
